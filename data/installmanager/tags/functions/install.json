@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "tickmanager:_/install",
-        "slotmodifier:_/install"
+        "slotmodifier:_/install",
+        "clickwithcarrot:_/install"
     ]
 }

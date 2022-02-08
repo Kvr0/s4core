@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "tickmanager:_/uninstall",
-        "slotmodifier:_/uninstall"
+        "slotmodifier:_/uninstall",
+        "clickwithcarrot:_/uninstall"
     ]
 }
