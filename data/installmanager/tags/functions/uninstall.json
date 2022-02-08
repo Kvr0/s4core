@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "tickmanager:_/uninstall"
+        "tickmanager:_/uninstall",
+        "slotmodifier:_/uninstall"
     ]
 }
