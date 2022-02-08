@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "tickmanager:_/uninstall"
+        "tickmanager:tick/_"
     ]
 }
