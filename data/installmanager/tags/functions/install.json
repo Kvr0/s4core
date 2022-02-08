@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "tickmanager:_/install"
+        "tickmanager:_/install",
+        "clickwithcarrot:_/install"
     ]
 }
