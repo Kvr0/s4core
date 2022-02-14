@@ -3,6 +3,7 @@
     "values": [
         "tickmanager:_/install",
         "slotmodifier:_/install",
-        "clickwithcarrot:_/install"
+        "clickwithcarrot:_/install",
+        "calculation:_/install"
     ]
 }
