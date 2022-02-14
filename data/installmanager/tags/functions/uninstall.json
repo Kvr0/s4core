@@ -4,6 +4,7 @@
         "tickmanager:_/uninstall",
         "slotmodifier:_/uninstall",
         "clickwithcarrot:_/uninstall",
-        "calculation:_/install"
+        "calculation:_/uninstall",
+        "relativeangle:_/uninstall"
     ]
 }

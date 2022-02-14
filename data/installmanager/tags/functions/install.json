@@ -4,6 +4,7 @@
         "tickmanager:_/install",
         "slotmodifier:_/install",
         "clickwithcarrot:_/install",
-        "calculation:_/install"
+        "calculation:_/install",
+        "relativeangle:_/install"
     ]
 }
