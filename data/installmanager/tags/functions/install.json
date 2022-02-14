@@ -5,6 +5,7 @@
         "slotmodifier:_/install",
         "clickwithcarrot:_/install",
         "calculation:_/install",
+        "tempmarker:_/install",
         "relativeangle:_/install"
     ]
 }
