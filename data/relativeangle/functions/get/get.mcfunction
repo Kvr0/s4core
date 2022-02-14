@@ -12,7 +12,7 @@
 
 ## 対象へのの角度を取得
 ### 向き補正
-    execute as @e[tag=RelativeAngle.Target,limit=1,sort=nearest] anchored eyes facing entity @s eyes run tp @s ~ ~ ~ ~ ~
+    execute anchored eyes facing entity @e[tag=RelativeAngle.Target,limit=1] eyes run tp @e[tag=RelativeAngle.get,tag=new,limit=1] ~ ~ ~ ~ ~
 ### 複製
     data modify storage calculation: r1 set from entity @e[tag=RelativeAngle.get,tag=new,limit=1] Rotation
 
