@@ -1,8 +1,8 @@
 ---
 name: 機能要望
 about: 機能の提案・要望
-title: ''
-labels: idea
+title: '[Requesr]'
+labels: request
 assignees: ''
 
 ---
