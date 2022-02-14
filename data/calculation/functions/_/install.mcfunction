@@ -14,6 +14,7 @@
 ## 乱数
 ### 定数設定
     scoreboard players set $31743 global 31743
+    scoreboard players set $65536 global 65536
 
 ### 初期値取得
     summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["new"]}
