@@ -2,5 +2,5 @@
 # @private
 
 #> マーカー
-    #alias uuid 0000ab6d-0000-0000-0000-000000000000 tempmarker0
-    #alias uuid 0000ab6d-0000-0000-0000-000000000001 tempmarker1
+    #alias entity tempmarker0 0000ab6d-0000-0000-0000-000000000000
+    #alias entity tempmarker1 0000ab6d-0000-0000-0000-000000000001

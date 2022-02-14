@@ -1,20 +1,17 @@
 #> relativeangle:get/get
 # @within function relativeangle:get/_
 
-## 計算用エンティティの召還
-    summon marker ~ ~ ~ {Tags:[RelativeAngle.get,new]}
-
 ## 実行者の角度を取得
 ### 向き補正
-    tp @e[tag=RelativeAngle.get,tag=new,limit=1] ~ ~ ~ ~ ~
+    tp 0000ab6d-0000-0000-0000-000000000000 ~ ~ ~ ~ ~
 ### 複製
-    data modify storage calculation: r0 set from entity @e[tag=RelativeAngle.get,tag=new,limit=1] Rotation
+    data modify storage calculation: r0 set from entity 0000ab6d-0000-0000-0000-000000000000 Rotation
 
 ## 対象へのの角度を取得
 ### 向き補正
-    execute anchored eyes facing entity @e[tag=RelativeAngle.Target,limit=1] eyes run tp @e[tag=RelativeAngle.get,tag=new,limit=1] ~ ~ ~ ~ ~
+    execute anchored eyes facing entity @e[tag=RelativeAngle.Target,limit=1] eyes run tp 0000ab6d-0000-0000-0000-000000000000 ~ ~ ~ ~ ~
 ### 複製
-    data modify storage calculation: r1 set from entity @e[tag=RelativeAngle.get,tag=new,limit=1] Rotation
+    data modify storage calculation: r1 set from entity 0000ab6d-0000-0000-0000-000000000000 Rotation
 
 ## ロード
 ### r0
@@ -43,6 +40,3 @@
 ## セット
     execute store result storage relativeangle: result[0] float 0.000001 run scoreboard players get $RelativeAngle.rx temporary
     execute store result storage relativeangle: result[1] float 0.000001 run scoreboard players get $RelativeAngle.ry temporary
-
-## 計算用エンティティの削除
-    kill @e[tag=RelativeAngle.get,tag=new]
