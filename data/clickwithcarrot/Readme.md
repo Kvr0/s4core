@@ -17,7 +17,7 @@
 
 ### 使用例
 - 例:クリックに使用したアイテムのデータを取得する
-```
+```mcfunction
 ## データの取得
     data get storage clickwithcarrot: slot
     data get storage clickwithcarrot: item

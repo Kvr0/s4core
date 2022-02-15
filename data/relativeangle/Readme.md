@@ -15,14 +15,13 @@
 
 ### 使用例
 - 例：召還したクリーパーとの相対方向の取得
-  ```
-  ## Targetの召還
-  summon creeper ~2 ~2 ~2 {Tags:[RelativeAngle.Target]}
+```mcfunction
+## Targetの召還
+    summon creeper ~2 ~2 ~2 {Tags:[RelativeAngle.Target]}
 
-  ## 相対方向の取得
-  function relativeangle:get/_
+## 相対方向の取得
+    function relativeangle:get/_
 
-  ## 結果の出力
-  tellraw @s [{"nbt":"result","storage":"relativeangle:"}]
-
-  ```
+## 結果の出力
+    tellraw @s [{"nbt":"result","storage":"relativeangle:"}]
+```

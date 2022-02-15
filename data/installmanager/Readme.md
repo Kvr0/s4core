@@ -19,17 +19,17 @@
 
 ### 使用例
 - 例：機能"A",機能”B”に依存した機能"Example"のインストール
-  ```
-  # 機能"Example"のインストール処理
-  # ...
-  
-  ## InstallManagerへの登録
-      data modify storage installmanager: installed append value Example
-      data modify storage installmanager: relation append value {id:Example,dep:[A,B]}
-  
-  ```
+```mcfunction
+## 機能"Example"のインストール処理
+# ...
+
+## InstallManagerへの登録
+    data modify storage installmanager: installed append value Example
+    data modify storage installmanager: relation append value {id:Example,dep:[A,B]}
+
+```
 - 例：機能"A",機能”B”に依存した機能"Example"のアンインストール
-  ```
-  # 機能"Example"のアンインストール処理
-  # ...
-  ```
+```mcfunction
+## 機能"Example"のアンインストール処理
+# ...
+```

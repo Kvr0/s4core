@@ -12,6 +12,6 @@
 
 ## 規則
 - 使用後必ず以下を実行する
-  ```
-  function calculation:reset/_
-  ```
+```mcfunction
+function calculation:reset/_
+```
