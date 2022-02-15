@@ -6,6 +6,7 @@
         "clickwithcarrot:_/uninstall",
         "calculation:_/uninstall",
         "tempmarker:_/uninstall",
-        "relativeangle:_/uninstall"
+        "relativeangle:_/uninstall",
+        "blockglowing:_/uninstall"
     ]
 }

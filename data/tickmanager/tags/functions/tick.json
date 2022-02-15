@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "clickwithcarrot:_/tick"
+        "clickwithcarrot:_/tick",
+        "blockglowing:_/tick"
     ]
 }

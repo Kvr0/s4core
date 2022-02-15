@@ -6,6 +6,7 @@
         "clickwithcarrot:_/install",
         "calculation:_/install",
         "tempmarker:_/install",
-        "relativeangle:_/install"
+        "relativeangle:_/install",
+        "blockglowing:_/install"
     ]
 }
