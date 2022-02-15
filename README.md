@@ -10,6 +10,7 @@ MinecraftのDatapackに基本機能を提供するデータパック
 - [`SlotModifier`](https://github.com/Kvr0/s4core/tree/dev/data/slotmanager) プレイヤーのアイテムをブロックを使わずに変更する
 - [`RelativeAngle`](https://github.com/Kvr0/s4core/tree/dev/data/relativeangle) 実行者から対象への相対方向の取得
 - [`TempMarker`](https://github.com/Kvr0/s4core/tree/dev/data/tempmarker) 一時的な操作用マーカーエンティティ
+- [`BlockGlowing`](https://github.com/Kvr0/s4core/tree/dev/data/blockglowing) ブロックのふちが光る表現
 
 ## 使用しているライブラリ
 - [`ScoreToHealth`](https://github.com/Ai-Akaishi/ScoreToHealth)
