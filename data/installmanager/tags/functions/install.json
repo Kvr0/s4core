@@ -7,6 +7,7 @@
         "calculation:_/install",
         "tempmarker:_/install",
         "relativeangle:_/install",
-        "blockglowing:_/install"
+        "blockglowing:_/install",
+        "playerinventory:_/install"
     ]
 }

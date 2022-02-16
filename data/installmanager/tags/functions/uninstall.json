@@ -7,6 +7,7 @@
         "calculation:_/uninstall",
         "tempmarker:_/uninstall",
         "relativeangle:_/uninstall",
-        "blockglowing:_/uninstall"
+        "blockglowing:_/uninstall",
+        "playerinventory:_/uninstall"
     ]
 }
