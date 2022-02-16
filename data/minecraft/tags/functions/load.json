@@ -1,6 +1,7 @@
 {
 	"values": [
 		"score_to_health:load",
-		"score_damage:core/init"
+		"score_damage:core/init",
+		"oh_my_dat:sys/load"
 	]
 }

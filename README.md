@@ -15,3 +15,4 @@ MinecraftのDatapackに基本機能を提供するデータパック
 ## 使用しているライブラリ
 - [`ScoreToHealth`](https://github.com/Ai-Akaishi/ScoreToHealth)
 - [`ScoreDamage`](https://github.com/ChenCMD/MCCMD-ScoreDamage)
+- [`OhMyDat`](https://github.com/Ai-Akaishi/OhMyDat)
