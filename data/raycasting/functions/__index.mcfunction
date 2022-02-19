@@ -1,0 +1,2 @@
+#> raycasting:__index
+# @private
