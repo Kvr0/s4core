@@ -8,6 +8,7 @@
         "tempmarker:_/uninstall",
         "relativeangle:_/uninstall",
         "blockglowing:_/uninstall",
-        "playerinventory:_/uninstall"
+        "playerinventory:_/uninstall",
+        "raycasting:_/uninstall"
     ]
 }
