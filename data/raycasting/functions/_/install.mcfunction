@@ -4,4 +4,4 @@
 
 ## InstallManagerへの登録
     data modify storage installmanager: installed append value RayCasting
-    data modify storage installmanager: relation append value {id:RayCasting,dep:[InstallManager]}
+    data modify storage installmanager: relation append value {id:RayCasting,dep:[InstallManager,Calculation,TempMarker]}

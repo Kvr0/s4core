@@ -5,4 +5,4 @@
     data merge storage calculation: {}
 
 ## スコアボード値リセット
-    scoreboard players reset * tempoarary
+    scoreboard players reset * temporary
