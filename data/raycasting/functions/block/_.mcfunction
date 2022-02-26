@@ -28,7 +28,7 @@
     execute store result score $raycasting:block/_.dir[2] temporary run data get storage raycasting: result.dir[2] 1000000000
 #> 距離
     scoreboard players set $raycasting:block/_.distance temporary 0
-    scoreboard players set $raycasting:block/_.maxdistance temporary 50
+    execute unless score $raycasting:block/_.maxdistance temporary matches 1.. run scoreboard players set $raycasting:block/_.maxdistance temporary 50
 
 ## 探索ループ
     tp @e[tag=raycasting.temp,limit=1] ~ ~ ~ ~ ~

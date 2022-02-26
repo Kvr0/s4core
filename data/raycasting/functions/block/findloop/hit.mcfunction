@@ -1,9 +1,6 @@
 #> raycasting:block/findloop/hit
 # @within function raycasting:block/findloop/_
 
-## HitFlag
-    data modify storage raycasting: result.hit set value 1b
-
 ## Flag
     execute if data storage calculation: hit.flags{x:-1b} run data modify storage raycasting: result.face set value px
     execute if data storage calculation: hit.flags{y:-1b} run data modify storage raycasting: result.face set value py
