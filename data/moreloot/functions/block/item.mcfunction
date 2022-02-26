@@ -1,8 +1,8 @@
 #> moreloot:block/item
-# @within function moreloot:_/always
+# @within function moreloot:_/tick
 
 ## リセット
-    data merge storage moreloot: {pos:[0,0,0],UUID:[I;0,0,0,0],item:"air"}
+    data merge storage moreloot: {pos:[0,0,0],UUID:[I;0,0,0,0],item:"air",tool:{}}
 
 ## pos
     execute store result storage moreloot: pos[0] int 1 run data get entity @s Pos[0] 1
@@ -14,6 +14,9 @@
 
 ## item
     data modify storage moreloot: item set from entity @s Item.id
+
+## tool
+    data modify storage moreloot: tool set from entity @s Item.tag.Player.Tool
 
 ## 壊したプレイヤーを取得
     execute store result score $moreloot:block/item.UUID[0] temporary run data get storage moreloot: UUID[0] 1
@@ -27,6 +30,3 @@
 
 ## Tag削除
     tag @a remove moreloot.target
-
-## 削除
-    kill @s

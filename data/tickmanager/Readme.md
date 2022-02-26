@@ -8,6 +8,7 @@ tick処理を管理する
 ## 内容
 - インストール済みの場合のみtick処理を実行
 - tick処理の一時停止・再開
+- 常時実行
 
 ## API
 - `tickmanager:start/_`  
@@ -17,3 +18,4 @@ tick処理を管理する
 
 ## コールバック
 - `tickmanager:tick`
+- `tickmanager:always`
