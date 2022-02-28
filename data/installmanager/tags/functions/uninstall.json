@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "tickmanager:_/uninstall",
+        "slotmodifier:_/uninstall",
+        "clickwithcarrot:_/uninstall",
+        "calculation:_/uninstall",
+        "tempmarker:_/uninstall",
+        "relativeangle:_/uninstall",
+        "blockglowing:_/uninstall",
+        "playerinventory:_/uninstall",
+        "raycasting:_/uninstall"
+    ]
+}

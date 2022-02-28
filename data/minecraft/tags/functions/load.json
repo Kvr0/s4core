@@ -1,0 +1,8 @@
+{
+	"values": [
+		"installmanager:_/load",
+		"score_to_health:load",
+		"score_damage:core/init",
+		"oh_my_dat:sys/load"
+	]
+}

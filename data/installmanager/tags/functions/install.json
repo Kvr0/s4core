@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "tickmanager:_/install",
+        "slotmodifier:_/install",
+        "clickwithcarrot:_/install",
+        "calculation:_/install",
+        "tempmarker:_/install",
+        "relativeangle:_/install",
+        "blockglowing:_/install",
+        "playerinventory:_/install",
+        "raycasting:_/install",
+        "moreloot:_/install"
+    ]
+}

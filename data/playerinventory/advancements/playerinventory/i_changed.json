@@ -1,0 +1,12 @@
+{
+    "parent": "playerinventory:playerinventory/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "rewards": {
+      "function": "playerinventory:i_changed/_"
+    }
+  }
+  
