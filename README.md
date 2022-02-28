@@ -2,6 +2,9 @@
 
 MinecraftのDatapackに基本機能を提供するデータパック
 
+## DL
+[__DownLoad__](https://github.com/Kvr0/s4core/releases/download/PreRelease/s4core.zip)
+
 ## 機能
 - [`InstallManager`](https://github.com/Kvr0/s4core/tree/dev/data/installmanager) 追加される機能の依存関係やインストールを管理する
 - [`TickManager`](https://github.com/Kvr0/s4core/tree/dev/data/tickmanager) tick処理を管理する
