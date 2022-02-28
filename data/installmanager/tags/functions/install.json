@@ -9,6 +9,7 @@
         "relativeangle:_/install",
         "blockglowing:_/install",
         "playerinventory:_/install",
-        "raycasting:_/install"
+        "raycasting:_/install",
+        "moreloot:_/install"
     ]
 }
