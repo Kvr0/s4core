@@ -11,6 +11,7 @@ MinecraftのDatapackに基本機能を提供するデータパック
 - [`RelativeAngle`](https://github.com/Kvr0/s4core/tree/dev/data/relativeangle) 実行者から対象への相対方向の取得
 - [`TempMarker`](https://github.com/Kvr0/s4core/tree/dev/data/tempmarker) 一時的な操作用マーカーエンティティ
 - [`BlockGlowing`](https://github.com/Kvr0/s4core/tree/dev/data/blockglowing) ブロックのふちが光る表現
+- [`MoreLoot`](https://github.com/Kvr0/s4core/tree/dev/data/moreloot) ブロックの採掘処理に関する機能
 
 ## 使用しているライブラリ
 - [`ScoreToHealth`](https://github.com/Ai-Akaishi/ScoreToHealth)
