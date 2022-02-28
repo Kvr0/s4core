@@ -3,4 +3,4 @@
 # @api
 
 ## Check
-    execute if data storage installmanager: installed run function installmanager:install/_
+    execute unless data storage installmanager: installed run function installmanager:install/_
