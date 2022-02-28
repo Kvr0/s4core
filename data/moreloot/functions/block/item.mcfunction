@@ -2,7 +2,7 @@
 # @within function moreloot:_/tick
 
 ## リセット
-    data modify storage moreloot: result set value {pos:[0,0,0],UUID:[I;0,0,0,0],item:"air",tool:{}}
+    data modify storage moreloot: result set value {pos:[0,0,0],UUID:[I;0,0,0,0],item:"air",tool:{},offhand:{}}
 
 ## pos
     execute store result storage moreloot: result.pos[0] int 1 run data get entity @s Pos[0] 1
@@ -13,10 +13,13 @@
     data modify storage moreloot: result.UUID set from entity @s Item.tag.Player.UUID
 
 ## item
-    data modify storage moreloot: result.item set from entity @s Item.id
+    data modify storage moreloot: result.item set from entity @s Item.tag.item
 
 ## tool
     data modify storage moreloot: result.tool set from entity @s Item.tag.Player.Tool
+
+## offhand
+    data modify storage moreloot: result.offhand set from entity @s Item.tag.Player.OffHand
 
 ## 壊したプレイヤーを取得
     execute store result score $moreloot:block/item.UUID[0] temporary run data get storage moreloot: result.UUID[0] 1
