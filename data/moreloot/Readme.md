@@ -19,7 +19,7 @@
 
 ## コールバック
 - `moreloot:digged`
-  > `storage moreloot:`
+  > `storage moreloot: result`
   > ```json
   > {pos:[0,0,0],UUID:[I;0,0,0,0],item:"air",tool:{}}
   > ```
