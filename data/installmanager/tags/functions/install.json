@@ -10,6 +10,7 @@
         "blockglowing:_/install",
         "playerinventory:_/install",
         "raycasting:_/install",
-        "moreloot:_/install"
+        "moreloot:_/install",
+        "stringediter:_/install"
     ]
 }
