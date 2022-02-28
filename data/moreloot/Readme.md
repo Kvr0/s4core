@@ -20,6 +20,6 @@
 ## コールバック
 - `moreloot:digged`
   > `storage moreloot: result`
-  > ```mcfunction
+  > ```json
   > {pos:[0,0,0],UUID:[I;0,0,0,0],item:"air",tool:{}}
   > ```
