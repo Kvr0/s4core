@@ -15,6 +15,7 @@ MinecraftのDatapackに基本機能を提供するデータパック
 - [`TempMarker`](https://github.com/Kvr0/s4core/tree/dev/data/tempmarker) 一時的な操作用マーカーエンティティ
 - [`BlockGlowing`](https://github.com/Kvr0/s4core/tree/dev/data/blockglowing) ブロックのふちが光る表現
 - [`MoreLoot`](https://github.com/Kvr0/s4core/tree/dev/data/moreloot) ブロックの採掘処理に関する機能
+- [`RayCasting機能`](https://github.com/Kvr0/s4core/tree/dev/data/raycasting) RayCasting機能
 
 ## 使用しているライブラリ
 - [`ScoreToHealth`](https://github.com/Ai-Akaishi/ScoreToHealth)
