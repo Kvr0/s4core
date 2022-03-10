@@ -25,5 +25,11 @@
 ## Store
     data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].playerinventory.Inventory set from storage entitytick: nbt.Inventory
 
+## InventoryChanged
+    data modify storage entitytick: nbt.inventory_changed set value 1b
+
+## Callback
+    function #playerinventory:update
+
 ## Tag
     tag @s remove playerinventory.i_changed
