@@ -5,6 +5,7 @@
     function #oh_my_dat:please
 
 ## リセット
+    data modify storage entitytick: loaded set value []
     data modify storage entitytick: nbt set value {}
 
 ## Load Entity NBT
@@ -13,3 +14,5 @@
 ## Entity Tick
     function #entitytick:tick/entity
 
+## Reset
+    function calculation:reset/_
