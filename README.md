@@ -3,7 +3,7 @@
 MinecraftのDatapackに基本機能を提供するデータパック
 
 ## DL
-[__DownLoad__](https://github.com/Kvr0/s4core/releases/download/PreRelease/s4core.zip)
+[__DownLoad__](https://github.com/Kvr0/s4core/releases/latest/s4core.zip)
 
 ## 機能
 - [`InstallManager`](https://github.com/Kvr0/s4core/tree/dev/data/installmanager) 追加される機能の依存関係やインストールを管理する
@@ -15,6 +15,8 @@ MinecraftのDatapackに基本機能を提供するデータパック
 - [`TempMarker`](https://github.com/Kvr0/s4core/tree/dev/data/tempmarker) 一時的な操作用マーカーエンティティ
 - [`BlockGlowing`](https://github.com/Kvr0/s4core/tree/dev/data/blockglowing) ブロックのふちが光る表現
 - [`MoreLoot`](https://github.com/Kvr0/s4core/tree/dev/data/moreloot) ブロックの採掘処理に関する機能
+- [`RayCasting`](https://github.com/Kvr0/s4core/tree/dev/data/raycasting) RayCasting機能
+- [`EntityTick`](https://github.com/Kvr0/s4core/tree/dev/data/entitytick) NBTデータロードの補助
 
 ## 使用しているライブラリ
 - [`ScoreToHealth`](https://github.com/Ai-Akaishi/ScoreToHealth)
