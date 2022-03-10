@@ -9,6 +9,7 @@
         "relativeangle:_/uninstall",
         "blockglowing:_/uninstall",
         "playerinventory:_/uninstall",
-        "raycasting:_/uninstall"
+        "raycasting:_/uninstall",
+        "entitytick:_/uninstall"
     ]
 }

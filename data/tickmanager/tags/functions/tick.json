@@ -4,6 +4,7 @@
         "clickwithcarrot:_/tick",
         "blockglowing:_/tick",
         "playerinventory:_/tick",
-        "moreloot:_/tick"
+        "moreloot:_/tick",
+        "entitytick:_/tick"
     ]
 }
