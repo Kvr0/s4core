@@ -10,8 +10,14 @@
 - グローバル objective
 - 乱数
 
-## 規則
-- 使用後必ず以下を実行する
+## 使い方
 ```mcfunction
-function calculation:reset/_
+## Open
+    function calculation:session/open
+
+## ...
+# ...
+
+## Close
+    function calculation:session/close
 ```

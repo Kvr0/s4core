@@ -3,6 +3,9 @@
 # @output storage relativeangle: {is_entity:0b, has_target:0b, fail:0b, result:[0.0f, 0.0f]}
 # @api
 
+## Open
+    function calculation:session/open
+
 ## リセット
     data merge storage relativeangle: {is_entity:0b, has_target:0b, fail:0b, result:[0.0f, 0.0f]}
 
@@ -18,5 +21,5 @@
 ## 計算実行
     execute if data storage relativeangle: {fail:0b} run function relativeangle:get/get
 
-## リセット
-    function calculation:reset/_
+## Close
+    function calculation:session/close
