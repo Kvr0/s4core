@@ -17,6 +17,7 @@ MinecraftのDatapackに基本機能を提供するデータパック
 - [`MoreLoot`](https://github.com/Kvr0/s4core/tree/dev/data/moreloot) ブロックの採掘処理に関する機能
 - [`RayCasting`](https://github.com/Kvr0/s4core/tree/dev/data/raycasting) RayCasting機能
 - [`EntityTick`](https://github.com/Kvr0/s4core/tree/dev/data/entitytick) NBTデータロードの補助
+- [`ItemID`](https://github.com/Kvr0/s4core/tree/dev/data/itemid) BlockID, ItemIDの取得
 
 ## 使用しているライブラリ
 - [`ScoreToHealth`](https://github.com/Ai-Akaishi/ScoreToHealth)
