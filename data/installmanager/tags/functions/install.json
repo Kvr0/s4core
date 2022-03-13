@@ -11,6 +11,7 @@
         "playerinventory:_/install",
         "raycasting:_/install",
         "moreloot:_/install",
-        "entitytick:_/install"
+        "entitytick:_/install",
+        "itemid:_/install"
     ]
 }
