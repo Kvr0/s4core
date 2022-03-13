@@ -16,6 +16,7 @@
     execute if block ~ ~ ~ #itemid:id/8 run scoreboard players add $itemid:get_blockid/_.id temporary 128
     execute if block ~ ~ ~ #itemid:id/9 run scoreboard players add $itemid:get_blockid/_.id temporary 256
     execute if block ~ ~ ~ #itemid:id/10 run scoreboard players add $itemid:get_blockid/_.id temporary 512
+    execute if block ~ ~ ~ #itemid:id/11 run scoreboard players add $itemid:get_blockid/_.id temporary 1024
 
 ## Result
     execute store result storage itemid: result int 1 run scoreboard players get $itemid:get_blockid/_.id temporary
