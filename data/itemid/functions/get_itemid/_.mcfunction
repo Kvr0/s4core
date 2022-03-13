@@ -5,7 +5,7 @@
     function calculation:session/open
 
 ## Buffer
-    execute unless entity @e[tag=itemid.buffer] run summon armor_stand 0 1000 0 {Tags:[itemid.buffer]}
+    execute unless entity @e[tag=itemid.buffer] run summon armor_stand 0 1000 0 {Tags:[itemid.buffer],Marker:1b,Invisible:1b}
     item replace entity @e[tag=itemid.buffer,limit=1] weapon.mainhand with stone
 
 ## Item
