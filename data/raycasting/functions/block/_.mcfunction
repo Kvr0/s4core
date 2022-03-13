@@ -2,6 +2,9 @@
 # 視線先のブロックを探索
 # @api
 
+## Open
+    function calculation:session/open
+
 ## 計算用エンティティ作成
     summon marker ~ ~ ~ {Tags:[raycasting.temp]}
 
@@ -37,5 +40,5 @@
 ## 計算用エンティティ削除
     kill @e[tag=raycasting.temp]
 
-## リセット
-    function calculation:reset/_
+## Close
+    function calculation:session/close

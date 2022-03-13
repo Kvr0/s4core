@@ -1,6 +1,9 @@
 #> entitytick:player_tick/_
 # @within function entitytick:_/tick
 
+## Open
+    function calculation:session/open
+
 ## OhMyDat
     function #oh_my_dat:please
 
@@ -14,5 +17,5 @@
 ## Player Tick
     function #entitytick:tick/player
 
-## Reset
-    function calculation:reset/_
+## Close
+    function calculation:session/close
