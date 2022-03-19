@@ -3,5 +3,5 @@
 
 ## InstallManagerへの登録
     data modify storage installmanager: installed append value UsedToBlock
-    data modify storage installmanager: relation append value {id:UsedToBlock,dep:[InstallManager]}
+    data modify storage installmanager: relation append value {id:UsedToBlock,dep:[InstallManager,Calculation]}
 
