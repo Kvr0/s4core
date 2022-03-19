@@ -1,0 +1,19 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        {
+          "nbt": "input.a",
+          "storage": "stringediter:",
+          "interpret": true
+        },
+        {
+          "nbt": "input.b",
+          "storage": "stringediter:",
+          "interpret": true
+        }
+      ]
+    }
+  ]
+  
