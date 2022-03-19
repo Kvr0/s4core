@@ -18,6 +18,9 @@ MinecraftのDatapackに基本機能を提供するデータパック
 - [`RayCasting`](https://github.com/Kvr0/s4core/tree/dev/data/raycasting) RayCasting機能
 - [`EntityTick`](https://github.com/Kvr0/s4core/tree/dev/data/entitytick) NBTデータロードの補助
 - [`ItemID`](https://github.com/Kvr0/s4core/tree/dev/data/itemid) BlockID, ItemIDの取得
+- [`StorageCom`](https://github.com/Kvr0/s4core/tree/dev/data/storagecom) ストレージを用いたコマンド処理
+- [`ChunkLoader`](https://github.com/Kvr0/s4core/tree/dev/data/chunkloader) チャンクロードの管理
+- [`UsedToBlock`](https://github.com/Kvr0/s4core/tree/dev/data/usedtoblock) アイテムを使用したブロック座標と面を取得
 
 ## 使用しているライブラリ
 - [`ScoreToHealth`](https://github.com/Ai-Akaishi/ScoreToHealth)

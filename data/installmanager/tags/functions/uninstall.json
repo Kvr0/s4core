@@ -11,6 +11,7 @@
         "playerinventory:_/uninstall",
         "raycasting:_/uninstall",
         "entitytick:_/uninstall",
-        "itemid:_/uninstall"
+        "itemid:_/uninstall",
+        "chunkloader:_/uninstall"
     ]
 }

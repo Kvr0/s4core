@@ -30,10 +30,11 @@
 
     data modify entity @s Pos set from storage calculation: chunkloader.pos
 
-    execute at @s unless entity @e[tag=chunkloader.loader,tag=!this] run forceload remove ~ ~ ~ ~
+    execute at @s if entity @s[type=marker] unless entity @e[tag=chunkloader.loader,tag=!this] run forceload remove ~ ~ ~ ~
 
 ## Remove
-    kill @s
+    tag @s remove this
+    kill @s[type=marker,tag=chunkloader.loader]
 
 ## Close
     function calculation:session/close

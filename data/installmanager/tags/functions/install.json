@@ -13,6 +13,8 @@
         "moreloot:_/install",
         "entitytick:_/install",
         "itemid:_/install",
-        "storagecom:_/install"
+        "storagecom:_/install",
+        "chunkloader:_/install",
+        "usedtoblock:_/install"
     ]
 }
