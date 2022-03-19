@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "playerinventory:entitytick/tick/_"
+    ]
+}

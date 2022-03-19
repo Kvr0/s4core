@@ -1,0 +1,426 @@
+{
+    "parent": "usedtoblock:root",
+    "criteria": {
+        "0-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.0-0]}}"
+                }
+            }
+        },
+        "0-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.0-1]}}"
+                }
+            }
+        },
+        "1-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.1-0]}}"
+                }
+            }
+        },
+        "1-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.1-1]}}"
+                }
+            }
+        },
+        "2-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.2-0]}}"
+                }
+            }
+        },
+        "2-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.2-1]}}"
+                }
+            }
+        },
+        "3-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.3-0]}}"
+                }
+            }
+        },
+        "3-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.3-1]}}"
+                }
+            }
+        },
+        "4-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.4-0]}}"
+                }
+            }
+        },
+        "4-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.4-1]}}"
+                }
+            }
+        },
+        "5-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.5-0]}}"
+                }
+            }
+        },
+        "5-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.5-1]}}"
+                }
+            }
+        },
+        "6-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.6-0]}}"
+                }
+            }
+        },
+        "6-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.6-1]}}"
+                }
+            }
+        },
+        "7-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.7-0]}}"
+                }
+            }
+        },
+        "7-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.7-1]}}"
+                }
+            }
+        },
+        "8-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.8-0]}}"
+                }
+            }
+        },
+        "8-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.8-1]}}"
+                }
+            }
+        },
+        "9-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.9-0]}}"
+                }
+            }
+        },
+        "9-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.9-1]}}"
+                }
+            }
+        },
+        "10-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.10-0]}}"
+                }
+            }
+        },
+        "10-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.10-1]}}"
+                }
+            }
+        },
+        "11-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.11-0]}}"
+                }
+            }
+        },
+        "11-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.11-1]}}"
+                }
+            }
+        },
+        "12-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.12-0]}}"
+                }
+            }
+        },
+        "12-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.12-1]}}"
+                }
+            }
+        },
+        "13-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.13-0]}}"
+                }
+            }
+        },
+        "13-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.13-1]}}"
+                }
+            }
+        },
+        "14-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.14-0]}}"
+                }
+            }
+        },
+        "14-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.14-1]}}"
+                }
+            }
+        },
+        "15-0": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.15-0]}}"
+                }
+            }
+        },
+        "15-1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{EntityTag:{Tags:[UsedToBlock.15-1]}}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "0-0",
+            "0-1"
+        ],
+        [
+            "1-0",
+            "1-1"
+        ],
+        [
+            "2-0",
+            "2-1"
+        ],
+        [
+            "3-0",
+            "3-1"
+        ],
+        [
+            "4-0",
+            "4-1"
+        ],
+        [
+            "5-0",
+            "5-1"
+        ],
+        [
+            "6-0",
+            "6-1"
+        ],
+        [
+            "7-0",
+            "7-1"
+        ],
+        [
+            "8-0",
+            "8-1"
+        ],
+        [
+            "9-0",
+            "9-1"
+        ],
+        [
+            "10-0",
+            "10-1"
+        ],
+        [
+            "11-0",
+            "11-1"
+        ],
+        [
+            "12-0",
+            "12-1"
+        ],
+        [
+            "13-0",
+            "13-1"
+        ],
+        [
+            "14-0",
+            "14-1"
+        ],
+        [
+            "15-0",
+            "15-1"
+        ]
+    ],
+    "rewards": {
+        "function": "usedtoblock:usedtoblock/_"
+    }
+}
