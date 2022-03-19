@@ -1,0 +1,20 @@
+{
+    "parent": "usedtoblock:root",
+    "criteria": {
+        "0-0":{
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": ["item_frame"],
+                    "nbt": "{UsedToBlock:{id:{0:0}}}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["0-0","0-1"]
+    ],
+    "rewards": {
+        "function": "usedtoblock:usedtoblock/_"
+    }
+}
