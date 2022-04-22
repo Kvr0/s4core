@@ -28,6 +28,9 @@
     execute store result score $moreloot:block/item.UUID[3] temporary run data get storage moreloot: result.UUID[3] 1
     execute as @a run function moreloot:block/get_player
 
+## Remove
+    kill @s
+
 ## コールバック発火
     execute as @a[tag=moreloot.target] at @s run function #moreloot:digged
 

@@ -11,5 +11,6 @@
     #declare objective global グローバル
 
 #> API
-    #declare function calculation:reset/_ 一時保存値のリセット
+    #declare function calculation:session/open セッション開始
+    #declare function calculation:session/close セッション終了
     #declare function calculation:random/_ 乱数取得

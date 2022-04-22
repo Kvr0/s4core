@@ -2,6 +2,9 @@
 # 機能のインストール
 # @api
 
+## 実行順序
+    datapack enable "file/s4core" first
+
 ## データのリセット
     data modify storage installmanager: installed set value []
     data modify storage installmanager: relation set value []
